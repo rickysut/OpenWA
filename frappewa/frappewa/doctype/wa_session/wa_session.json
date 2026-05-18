@@ -1,0 +1,81 @@
+{
+  "name": "WA Session",
+  "doctype": "DocType",
+  "module": "FrappeWA",
+  "custom": 0,
+  "is_virtual": 0,
+  "fields": [
+    {
+      "fieldname": "session_name",
+      "fieldtype": "Data",
+      "label": "Session Name",
+      "in_list_view": 1,
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "\nDisconnected\nConnecting\nConnected\nQR Code Pending",
+      "in_list_view": 1,
+      "default": "Disconnected"
+    },
+    {
+      "fieldname": "phone_number",
+      "fieldtype": "Data",
+      "label": "Phone Number",
+      "read_only": 1
+    },
+    {
+      "fieldname": "qr_code",
+      "fieldtype": "Long Text",
+      "label": "QR Code Data",
+      "hidden": 1
+    },
+    {
+      "fieldname": "last_connected",
+      "fieldtype": "Datetime",
+      "label": "Last Connected",
+      "read_only": 1
+    },
+    {
+      "fieldname": "webhook_url",
+      "fieldtype": "Data",
+      "label": "Webhook URL"
+    },
+    {
+      "fieldname": "enabled",
+      "fieldtype": "Check",
+      "label": "Enabled",
+      "default": "1"
+    }
+  ],
+  "links": [],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "submit": 0,
+      "cancel": 0,
+      "share": 1,
+      "print": 1,
+      "report": 1
+    },
+    {
+      "role": "All",
+      "read": 1,
+      "write": 0,
+      "create": 0,
+      "delete": 0
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1,
+  "track_seen": 1,
+  "track_views": 1
+}

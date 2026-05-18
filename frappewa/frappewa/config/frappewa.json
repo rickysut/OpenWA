@@ -1,0 +1,26 @@
+{
+  "name": "FrappeWA",
+  "description": "WhatsApp Integration Module for Frappe Framework",
+  "author": "FrappeWA Team",
+  "version": "0.0.1",
+  "frappe_version": "15",
+  "license": "MIT",
+  "app_name": "frappewa",
+  "app_title": "FrappeWA",
+  "modules": [
+    {
+      "module_name": "FrappeWA",
+      "name": "FrappeWA"
+    }
+  ],
+  "depends_on": [],
+  "website": "https://github.com/your-org/frappewa",
+  "repository": "https://github.com/your-org/frappewa.git",
+  "docs_url": "https://github.com/your-org/frappewa/docs",
+  "email": "hello@frappewa.com",
+  "prefix": "wa",
+  "color": "#25D366",
+  "icon": "whatsapp",
+  "type": "app",
+  "category": "Integrations"
+}

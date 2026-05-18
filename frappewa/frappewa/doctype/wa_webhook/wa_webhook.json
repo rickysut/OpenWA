@@ -1,0 +1,56 @@
+{
+  "name": "WA Webhook",
+  "doctype": "DocType",
+  "module": "FrappeWA",
+  "custom": 0,
+  "is_virtual": 0,
+  "fields": [
+    {
+      "fieldname": "session",
+      "fieldtype": "Link",
+      "label": "Session",
+      "options": "WA Session",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "event_type",
+      "fieldtype": "Select",
+      "label": "Event Type",
+      "options": "\nMessage Received\nMessage Status\nContact Update\nGroup Update\nQR Code\nConnection Status",
+      "in_list_view": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "payload",
+      "fieldtype": "Long Text",
+      "label": "Payload",
+      "read_only": 1
+    },
+    {
+      "fieldname": "processed",
+      "fieldtype": "Check",
+      "label": "Processed",
+      "default": "0"
+    },
+    {
+      "fieldname": "error_message",
+      "fieldtype": "Long Text",
+      "label": "Error Message",
+      "read_only": 1
+    }
+  ],
+  "links": [],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

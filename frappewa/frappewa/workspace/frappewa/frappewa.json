@@ -1,0 +1,134 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"b7u8q9r0s1t2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">FrappeWA Dashboard</span>\",\"col\":12}},{\"id\":\"c3d4e5f6g7h8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WA Sessions\",\"col\":3}},{\"id\":\"i9j0k1l2m3n4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WA Messages\",\"col\":3}},{\"id\":\"o5p6q7r8s9t0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WA Contacts\",\"col\":3}},{\"id\":\"u1v2w3x4y5z6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WA Webhooks\",\"col\":3}},{\"id\":\"a7b8c9d0e1f2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"g3h4i5j6k7l8\",\"type\":\"card\",\"data\":{\"card_name\":\"WhatsApp Sessions\",\"col\":4}},{\"id\":\"m9n0o1p2q3r4\",\"type\":\"card\",\"data\":{\"card_name\":\"Messages\",\"col\":4}},{\"id\":\"s5t6u7v8w9x0\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
+ "custom_blocks": [],
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "whatsapp",
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "FrappeWA",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WhatsApp Sessions",
+   "link_count": 1,
+   "onboard": 1,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WA Session",
+   "link_count": 0,
+   "link_to": "WA Session",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Messages",
+   "link_count": 2,
+   "onboard": 1,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WA Message",
+   "link_count": 0,
+   "link_to": "WA Message",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Message Logs",
+   "link_count": 0,
+   "link_to": "WA Message",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WA Contact",
+   "link_count": 0,
+   "link_to": "WA Contact",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WA Webhook",
+   "link_count": 0,
+   "link_to": "WA Webhook",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WA Settings",
+   "link_count": 0,
+   "link_to": "WA Settings",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "module": "FrappeWA",
+ "number_cards": [],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "WA Sessions",
+   "link_to": "WA Session",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "WA Messages",
+   "link_to": "WA Message",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "WA Contacts",
+   "link_to": "WA Contact",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "label": "WA Webhooks",
+   "link_to": "WA Webhook",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "FrappeWA"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "WA Settings",
+  "doctype": "DocType",
+  "module": "FrappeWA",
+  "custom": 0,
+  "is_virtual": 0,
+  "issingle": 1,
+  "fields": [
+    {
+      "fieldname": "node_service_url",
+      "fieldtype": "Data",
+      "label": "Node.js Service URL",
+      "description": "URL of the Node.js service running whatsapp-web.js"
+    },
+    {
+      "fieldname": "enable_auto_reconnect",
+      "fieldtype": "Check",
+      "label": "Enable Auto Reconnect",
+      "default": "1"
+    },
+    {
+      "fieldname": "webhook_retry_count",
+      "fieldtype": "Int",
+      "label": "Webhook Retry Count",
+      "default": "3"
+    },
+    {
+      "fieldname": "message_queue_enabled",
+      "fieldtype": "Check",
+      "label": "Enable Message Queue",
+      "default": "1"
+    },
+    {
+      "fieldname": "section_break_5",
+      "fieldtype": "Section Break"
+    },
+    {
+      "fieldname": "default_session",
+      "fieldtype": "Link",
+      "label": "Default Session",
+      "options": "WA Session"
+    }
+  ],
+  "links": [],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

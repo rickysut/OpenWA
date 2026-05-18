@@ -1,0 +1,107 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"HskvTHFQz7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">FrappeWA Dashboard</span>\",\"col\":12}},{\"id\":\"Bx9vD8qLp2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sessions\",\"col\":3}},{\"id\":\"Km3nR7wYt5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Messages\",\"col\":3}},{\"id\":\"Zp6jL2mNq8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WA Settings\",\"col\":3}},{\"id\":\"Vt4hC9xWs1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Qw8fG5kPr3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Message Statistics\",\"col\":6}},{\"id\":\"Mn2bV7yXc6\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Session Status\",\"col\":6}}]",
+ "creation": "2024-01-01 00:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "communication",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "FrappeWA",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master Data",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sessions",
+   "link_count": 0,
+   "link_to": "WASession",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Messages",
+   "link_count": 0,
+   "link_to": "WAMessage",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings & Logs",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WA Settings",
+   "link_count": 0,
+   "link_to": "WA Settings",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Webhook Logs",
+   "link_count": 0,
+   "link_to": "WA Webhook Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "FrappeWA",
+ "name": "FrappeWA",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Sessions",
+   "link_to": "WASession",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Messages",
+   "link_to": "WAMessage",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "Form",
+   "label": "WA Settings",
+   "link_to": "WA Settings",
+   "type": "DocType"
+  }
+ ],
+ "title": "FrappeWA"
+}

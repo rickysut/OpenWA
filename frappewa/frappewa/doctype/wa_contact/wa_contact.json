@@ -1,0 +1,50 @@
+{
+  "name": "WA Contact",
+  "doctype": "DocType",
+  "module": "FrappeWA",
+  "custom": 0,
+  "is_virtual": 0,
+  "fields": [
+    {
+      "fieldname": "phone_number",
+      "fieldtype": "Data",
+      "label": "Phone Number",
+      "in_list_view": 1,
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "name_display",
+      "fieldtype": "Data",
+      "label": "Name"
+    },
+    {
+      "fieldname": "profile_pic_url",
+      "fieldtype": "Data",
+      "label": "Profile Picture URL"
+    },
+    {
+      "fieldname": "is_business",
+      "fieldtype": "Check",
+      "label": "Is Business Account",
+      "default": "0"
+    }
+  ],
+  "links": [],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "All",
+      "read": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

@@ -1,0 +1,86 @@
+{
+  "name": "WA Message",
+  "doctype": "DocType",
+  "module": "FrappeWA",
+  "custom": 0,
+  "is_virtual": 0,
+  "fields": [
+    {
+      "fieldname": "session",
+      "fieldtype": "Link",
+      "label": "Session",
+      "options": "WA Session",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "message_type",
+      "fieldtype": "Select",
+      "label": "Message Type",
+      "options": "\nOutgoing\nIncoming",
+      "in_list_view": 1,
+      "default": "Outgoing"
+    },
+    {
+      "fieldname": "phone_number",
+      "fieldtype": "Data",
+      "label": "Phone Number",
+      "in_list_view": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "message",
+      "fieldtype": "Long Text",
+      "label": "Message",
+      "reqd": 1
+    },
+    {
+      "fieldname": "media_url",
+      "fieldtype": "Data",
+      "label": "Media URL"
+    },
+    {
+      "fieldname": "media_type",
+      "fieldtype": "Select",
+      "label": "Media Type",
+      "options": "\nNone\nImage\nVideo\nDocument\nAudio"
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "\nPending\nSent\nDelivered\nRead\nFailed",
+      "default": "Pending",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "message_id",
+      "fieldtype": "Data",
+      "label": "Message ID",
+      "read_only": 1
+    },
+    {
+      "fieldname": "timestamp",
+      "fieldtype": "Datetime",
+      "label": "Timestamp",
+      "read_only": 1
+    }
+  ],
+  "links": [],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "All",
+      "read": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

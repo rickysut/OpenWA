@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-01 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "node_service_url",
+  "enable_logging",
+  "default_retry_count",
+  "column_break_1",
+  "session_cleanup_days",
+  "message_retention_days"
+ ],
+ "fields": [
+  {
+   "fieldname": "node_service_url",
+   "fieldtype": "Data",
+   "label": "Node Service URL",
+   "description": "URL of the running Node.js whatsapp-web.js service (e.g., http://localhost:3000)"
+  },
+  {
+   "fieldname": "enable_logging",
+   "fieldtype": "Check",
+   "label": "Enable Logging",
+   "default": "1"
+  },
+  {
+   "fieldname": "default_retry_count",
+   "fieldtype": "Int",
+   "label": "Default Retry Count",
+   "default": "3"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "session_cleanup_days",
+   "fieldtype": "Int",
+   "label": "Session Cleanup Days",
+   "description": "Auto-disconnect sessions inactive for this many days",
+   "default": "30"
+  },
+  {
+   "fieldname": "message_retention_days",
+   "fieldtype": "Int",
+   "label": "Message Retention Days",
+   "description": "Keep messages for this many days before archiving",
+   "default": "90"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "FrappeWA",
+ "name": "WA Settings",
+ "naming_rule": "",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "WhatsApp Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
